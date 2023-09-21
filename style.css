@@ -6,13 +6,21 @@ h1{
     font-size: 50px;
 
 }
-.name-highlight{
+h2{
+    font-size: 35px;
+}
+p{
+    color: dimgray;
+    
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
     width: 40%;
-    margin: 4%;
+    margin: 2% 3%;
     float: left;
+    padding-left: 2%;
 }
 .half-width img{
     width: 100%;
@@ -21,14 +29,45 @@ h1{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
 }
+.dreamer{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .a-button{
     text-decoration: none;
     padding: 10px 20px;
-    background-color: orangered;
+    background-image: linear-gradient(45deg, salmon, red);
     color: antiquewhite;
     border-radius: 7px;
     font-weight: bold;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+.exp{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#programmer{
+border-left: 7px solid;
+border-image: linear-gradient(180deg, yellow,red);
+border-image-slice: 1;
+}
+#learner{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(0, 255, 170),rgb(0, 51, 255));
+border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
 }
